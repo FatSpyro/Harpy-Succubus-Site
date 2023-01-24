@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    background-image: url('../images/redskulls.jpg');
 }
 
 h1{
@@ -20,6 +21,7 @@ p {
     font-size: 40px;
     font-weight: bold;
 }
+
 
 .navbar {
     overflow: hidden;
@@ -77,6 +79,93 @@ nav ul li :hover{
     background-repeat: no-repeat ; 
     background-size:cover;  
 }
+
+#img-gallery {
+    width: 80%;
+    margin: 100px auto 50px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-gap: 30px; 
+}
+
+#img-gallery img {
+    width: 100%;
+    cursor: pointer;
+
+}
+
+
+#img-gallery img:hover{
+    transform: scale(0.8);
+    border-radius: 20px; 
+}
+
+.imgDescriptionBox{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.885); 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    display: none; 
+
+}
+
+.full-img-content{
+    display: flex;
+}
+
+.img-box{
+   /* width: 90%; 
+    max-width: 500px; 
+    margin: 0; */
+    width: 500px;
+    height: 800px; 
+    float: left;
+}
+
+.img-box img{
+    max-width: 100%;
+}
+
+.text-box{
+    color: white;
+    float: right;
+
+    
+}
+
+.text-box h3{
+    color: white;
+    margin: 1em;
+
+}
+
+.text-box p{
+    color: white; 
+    overflow: visible; 
+    margin: 1em;
+    text-align: left; 
+    font-size: 20px; 
+    word-break: break-word; 
+    
+}
+
+.img-box span{
+    position: absolute;
+    top: 5%;
+    right: 5%; 
+    color: white; 
+    cursor: pointer; 
+    font-family: sans-serif; 
+    font-weight: bold; 
+    font-size: 20px; 
+}
+
+
+
+
+
 
 
 
