@@ -73,8 +73,9 @@ nav ul li :hover{
 
 #headerImg {
     width: 100% ;
-    height: 300px ; 
-    background-image: url("../images/Demi-fiend.jpg");
+    height: 100vh;  
+    background-image: url("../images/silenthill.jpg");
+    box-shadow: #000;
     background-position: 80% 20% ;  
     background-repeat: no-repeat ; 
     background-size:cover;  
@@ -162,6 +163,13 @@ nav ul li :hover{
     font-size: 20px; 
 }
 
+#img-gallery img{
+    width: 300px; 
+    height: 300px; 
+    padding-left: 1em; 
+    padding-right: 1em; 
+}
+
 
 
 
@@ -192,16 +200,16 @@ a,a:hover,a:visited{color:#ddd;text-decoration:none;}
 
 /* HTML5 Audio Player with Playlist, source: https://codepen.io/sekedus/pen/ExxjZEz */
 #simp button,#simp input,#simp img{border:0;}
-#simp{max-width:600px;font-size:14px;font-family:"Segoe UI", Tahoma, sans-serif;text-align:initial;line-height:initial;background:#17212b;color:#ddd;margin:0 auto;border-radius:6px;overflow:hidden;}
+#simp{max-width:600px;font-size:14px;font-family:"Segoe UI", Tahoma, sans-serif;text-align:initial;line-height:initial;background:#1a0505;color:#ddd;margin:0 auto;border-radius:6px;overflow:hidden;}
 #simp .simp-album{padding:20px 25px 5px;}
 #simp .simp-album .simp-cover{margin-right:20px;}
 #simp .simp-album .simp-cover img{max-width:80px;width:100%;margin:0;padding:0;display:block;}
 #simp .simp-album .simp-title{font-size:120%;font-weight:bold;}
-#simp .simp-album .simp-artist{font-size:90%;color:#6c7883;}
+#simp .simp-album .simp-artist{font-size:90%; color:#6c7883;}
 #simp .simp-controls{padding:15px;}
 #simp .simp-controls button{font-size:130%;width:32px;height:32px;background:none;color:#ddd;padding:7px;cursor:pointer;border:0;border-radius:3px;}
-#simp .simp-controls button[disabled]{color:#636469;cursor:initial;}
-#simp .simp-controls button:not([disabled]):hover{background:#4082bc;color:#fff;}
+#simp .simp-controls button[disabled]{color:#696367;cursor:initial;}
+#simp .simp-controls button:not([disabled]):hover{background:#fa0376;color:#fff;}
 #simp .simp-controls .simp-prev,#simp .simp-controls .simp-next{font-size:100%;}
 #simp .simp-controls .simp-tracker,#simp .simp-controls .simp-volume{flex:1;margin-left:10px;position:relative;}
 #simp .simp-controls .simp-buffer {position:absolute;top:50%;right:0;left:0;height:5px;margin-top:-2.5px;border-radius:100px;}
@@ -227,9 +235,9 @@ a,a:hover,a:visited{color:#ddd;text-decoration:none;}
 #simp ul{margin:5px 0 0;padding:0;list-style:none;max-height:245px;}
 #simp ul li{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;margin:0;padding:8px 20px;cursor:pointer;}
 #simp ul li:last-child{padding-bottom:13px;}
-#simp ul li:nth-child(odd){background:#0e1621;}
-#simp ul li:hover{background:#242f3d;}
-#simp ul li.simp-active{background:#4082bc;color:#fff;}
+#simp ul li:nth-child(odd){background:#5a2940;}
+#simp ul li:hover{background:#f79deb;}
+#simp ul li.simp-active{background:#fa0376;color:#fff;}
 #simp ul li .simp-desc{font-size:90%;opacity:.5;margin-left:5px;}
 /* playlist scrollbar */
 #simp ul{overflow-y:auto;overflow-x:hidden;scrollbar-color:#73797f #2f3841;}
