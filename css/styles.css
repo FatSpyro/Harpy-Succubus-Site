@@ -170,6 +170,29 @@ nav ul li :hover{
     padding-right: 1em; 
 }
 
+.dragon1{
+    display: block; 
+    float: left;
+    transform: translate(0px,-300px); 
+   
+}
+
+.dragon2{
+    float: right; 
+    object-position: 50% 100%; 
+    transform: translate(0px,-300px); 
+}
+
+/*
+.artGalleryText{
+    float: left;
+    text-align: left; 
+    transform: translate(-150px, 0px); 
+}
+
+*/
+
+
 
 
 
