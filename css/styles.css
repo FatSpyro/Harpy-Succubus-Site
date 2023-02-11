@@ -201,6 +201,12 @@ nav ul li :hover{
     transform: translate(0px,-300px); 
 }
 
+#Resources li{
+    color: white; 
+    font-size: 20px; 
+
+}
+
 
 
 
@@ -286,20 +292,3 @@ a,a:hover,a:visited{color:#ddd;text-decoration:none;}
 #simp .simp-time .simp-slash,#simp .simp-time .end-time{display:none;}
 }
 
-
-
-/* GUESTBOOK PAGE */
-#formContainer{
-    background-color: #fa0376;
-    margin-top: 10em;
-    align-content: center;
-}
-
-label{
-    font-size: 25px;
-    color: white;
-}
-
-.textbox{
-    padding: 20px;
-}
